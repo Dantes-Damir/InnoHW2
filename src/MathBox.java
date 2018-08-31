@@ -11,8 +11,8 @@ public class MathBox {
         }
     }
 
-    public Integer summator() {
-        Integer sum = 0;
+    public Double summator() {
+        Double sum = 0.0;
         for (Integer temp : sortedSet) {
             sum += temp;
         }
