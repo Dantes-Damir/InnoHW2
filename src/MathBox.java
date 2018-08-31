@@ -1,8 +1,9 @@
 import java.util.Objects;
+import java.util.Set;
 import java.util.TreeSet;
 
 public class MathBox {
-    private TreeSet<Integer> sortedSet = new TreeSet();
+    private Set<Integer> sortedSet = new TreeSet();
 
     public MathBox(Integer[] mas) {
         for (int i = 0; i < mas.length; i++) {
